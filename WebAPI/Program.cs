@@ -24,6 +24,7 @@ builder.Services.AddSingleton<IUserDal, EfUserDal>();
 builder.Services.AddSingleton<IRentalService, RentalManager>();
 builder.Services.AddSingleton<IRentalDal, EfRentalDal>();
 
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
